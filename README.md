@@ -4,12 +4,14 @@ This is the official translation of the Open Chain specifications into Italian.
 
 ## todo
 
-* Establish a glossary for most used terms
 * Assign chunks for translation
+* Translate stuff
+* Clarify certain points that don't add up really much in the original version (see "Fixme" comments)
 
 ## done
 
-Not much
+* Draft translation of Sections 1+2 [carlo]
+
 
 Authors:
 
