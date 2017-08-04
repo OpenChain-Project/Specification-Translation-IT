@@ -24,12 +24,12 @@ In coerenza con la Visione e la Missione, queste specifiche definiscono un insie
 
 La Sezione 2 `<!-- FIXME verificare se non sia capitolo o articolo--> ` introduce definizioni dei termini chiave usati all'interno delle specifiche. La Sezione 3 presenta i requisiti delle specifiche dove ciascuna ha una lista di uno o più Prodotti di Verifica. Essi rappresentano la prova che deve sussistere al fine di considerare un dato requisito soddisfatto. Se tutti i requisiti sono stati rispettati per un dato programma, esso viene considerato OpenChain Conforming <!-- FIXME lo terrei non tradotto --> nel rispetto della versione 1.1 delle specifiche. I prodotti di Verifica non sono pubblici, ma possono essere forniti sotto NDA o su richiesta confidenziale da parte di un'organizzazione OpenChain <!-- FIXME  confrontarsi con Shane, che cavolo vuol dire questa parte qui, non è chiaro -->  per validare la conformità.
 
-2) Definizioni
+# Definizioni
 
 FOSS (Free and Open Source Software)
 :    Software sottoposto a una o più licenze che rispettano la Open Source Definition, pubblicat dalla Open Source Initiative (OpenSource.org) o la Free Software Definition (pubblicata dalla Free Software Foundation) o licenze simili.
 
-Punto di contatto FOSS
+Contatti FOSS <!-- Nota, anche questo è stato modificato rispetto all'ultima verisione -->
 :    Una persona designata a ricevere [`domande | richieste di informazioni` `<!-- FIXME scegliere -->` ] circa il FOSS.
 
 Licenze identificate
@@ -38,14 +38,14 @@ Licenze identificate
 Conforme a OpenChain [`Oppure "OpenChain-conforme?" `]
 :    un programma che soddisfi tutti i requisiti di questa specifica.
 
-Software staff
+Staff del Software <!-- attenzione, modificata rispetto precedente versione -->   
 :    un dipendente o un appaltatore che definisce, contribuisce a o ha responsabilità circa la preparazione di Software fornito. A seconda dell'organizzazione, ciò potrebbe includere (ma non si limita a) sviluppatori software, specialisti del rilascio, responsabili della qualità, [`product marketing e product management` `<!-- FIXME come tradurre questa roba? Ha senso? --> `]
 
 SPDX o Software Package Data Exchange
 :    il formato standard creato dall'SPDX Working Group per lo scambio di informazioni di licenza e copyright circa un determinato pacchetto software. Una descrizione delle specifiche SPDX può essere reperita a http://www.spdx.org `<!-- FIXME sengnalare che gli URL vanno sempre identificati con il protocollo! -->`
 
-Software fornito
+Software Fornito <!-- supplied software nell'originale  -->
 :    software che un'organizzazione fornisce a terze parti (per esempio, a un'altra organizzazione o a un'altra persona)
 
-Prododtti di verifica
+Prodotti di Verifica
 :    prove che debbono esistere al fine di considerare soddisfatto un determinato requisito.
