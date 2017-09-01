@@ -15,8 +15,8 @@
 
 > Assicurare che passi `[necessari?]` siano stati intrapresi per creare, registrare e rendere lo Staff del Software informato dell'esistenza di una policy FOSS. Sebbene qui non sono forniti requisiti su cosa debba essere incluso in tale policy, altre sezioni potrebbero imporre requisiti sulla policy.
 
-<!-- nuovo paragrafo (duplicare) -->
 ### Esiste un aggiornamento FOSS obbligatorio per tutto lo Staff del Software, tale per cui:
+
 - **Il training, come minimo, copra le seguenti aree:**
 
     - La policy FOSS e dove reperire una copia;
@@ -58,7 +58,7 @@
 
 #### Prodotti di Verifica
 
-- Identificazione pubblica della funzione di Contatto FOSS (per esmepio, tramite un indirizzo email pubblicizzato, o la Open Compliance Directory della Linux Foundation).
+- Identificazione pubblica della funzione di Contatto FOSS (per esempio, tramite un indirizzo email pubblicizzato, o la Open Compliance Directory della Linux Foundation).
 - Esistenza di una procedura interna documentata che assegni le responsabilità per ricevere richieste circa la compliance FOSS.
 
 #### Razionale
@@ -77,9 +77,9 @@
 
 #### Prodotti di Verifica
 
-- I nomi delle persone, gruppi o fuznioni nei ruoli di compiance FOSS identificati internamente.
+- I nomi delle persone, gruppi o funzioni nei ruoli di compliance FOSS identificati internamente.
 - L'identificazione di risorse di competenza legale disponibili alle funzioni di compliance FOSS, che possono essere interne o esterne.
-- Esistenza di una procedura identificata per asegnare responsabilità interne per la compliance FOSS.
+- Esistenza di una procedura identificata per assegnare responsabilità interne per la compliance FOSS.
 - Esistenza di una procedura documentata per gestire la revisione di casi di mancata conformità e porvi rimedio.
 
 #### Razionale
