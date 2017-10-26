@@ -1,7 +1,12 @@
+**Contents**
+
+Copyright © 2016-2017 Linux Foundation. Questo documento è distribuito con licenza Creative Commons Attribuzione 4.0 Internazionale (CC-BY 4.0) .
+Una copia della licenza è reperibile presso <https://creativecommons.org/licenses/by/4.0/>.
+
 
 # Introduzione
 
-L'iniziativa "OpenChain" iniziò nel 2013 quando un gruppo di operatori impegnati nella _supply chain_ del software open source osservò l'insorgenza di due tendenze:
+L'OpenChain Initiative cominciò nel 2013 quando un gruppo di operatori impegnati nella _supply chain_ del software open source osservò l'insorgenza di due tendenze:
 
   * esistevano significative similitudini tra organizzazioni con programmi maturi di _compliance_ open source; e
   * permaneva un ampio numero di organizzazioni che scambiavano software con programmi meno evoluti.
