@@ -297,7 +297,7 @@ Questo insieme è definito come Materiali di Conformità  che possono includere
 attribuzione, avvisi di copyright, copia delle licenze, notifiche di modifica,
 offerte scritte, documenti SPDX e così via.**
 
-> **Risultati Attesi**:
+#### Risultati Attesi
 
 -   4.1.1 Esiste una procedura documentata che assicura che i Materiali di
     Conformità vengono preparati e distribuiti con la versione del Software
@@ -308,18 +308,19 @@ offerte scritte, documenti SPDX e così via.**
     esista almeno fino a quando il Software Fornito viene offerto o è richiesto
     dalle Licenze Identificate (a seconda di quale sia il termine più lungo).
 
-> **Razionale**: Assicurare che la collezione completa dei Prodotti di
+#### Razionale
+
+> Assicurare che la collezione completa dei Prodotti di
 Conformità accompagni il Software Fornito come richiesto dalle Licenze
 Identificate che disciplinano il Software Fornito insieme alle altre relazioni
 create nel quadro del processo di revisione FOSS.  <span id="_Toc457078802"
 class="anchor"><span id="_Toc480843030" class="anchor"></span></span>G5:
 Comprendere il Coinvolgimento della Comunità FOSS
---------------------------------------------------------------------------------------------------------------------------------------
 
 **5.1 Esiste una politica scritta che regola i contributi ai progetti FOSS da
 parte dell'organizzazione. La politica deve essere comunicata internamente.**
 
-> **Risultati Attesi**:
+#### Risultati Attesi
 
 -   5.1.1 Esiste una politica documentata di contributo FOSS;
 
@@ -328,8 +329,8 @@ parte dell'organizzazione. La politica deve essere comunicata internamente.**
     mediante formazione, un wiki interno, altri metodi pratici di
     comunicazione).
 
-> **Razionale**:
->
+#### Razionale
+
 > Assicurarsi che un'organizzazione abbia dato ragionevole considerazione allo
 > sviluppo di una politica per contribuire pubblicamente al FOSS. La politica di
 > contributo FOSS può far parte della politica globale FOSS di un'organizzazione
@@ -341,12 +342,13 @@ parte dell'organizzazione. La politica deve essere comunicata internamente.**
 esistere un processo che implementi la politica di contributo FOSS prevista nel
 capitolo 5.1.**
 
-> **Risultati Attesi**:
+#### Risultati Attesi
 
 -   5.2.1 Se la politica di contributo FOSS consente di contribuire, esiste una
     procedura documentata che disciplina i contributi FOSS.
 
-> **Razionale**: > > Assicurarsi che un'organizzazione abbia un processo
+#### Razionale
+> Assicurarsi che un'organizzazione abbia un processo
 documentato riguardo come > l'organizzazione contribuisce pubblicamente FOSS.
 Può esistere una politica > tale per cui i contributi non sono consentiti del
 tutto. In questa situazione è > chiaro che una procedura può non esistere e
@@ -364,7 +366,8 @@ questa versione 1.1 della Specifica OpenChain.**
 -   6.1.1 L'organizzazione afferma che esiste un programma di gestione FOSS che
     soddisfa tutti i requisiti di questa Specifica OpenChain versione 1.1.
 
-> **Razionale**:
+#### Razionale
+
 >
 > Per garantire che se un'organizzazione dichiara di avere un programma che è
 > Conforme ad OpenChain, tale programma ha soddisfatto *tutti* i requisiti di
@@ -382,8 +385,8 @@ possono essere trovati sul sito web del progetto OpenChain.  **
     soddisfa tutti i requisiti di questa Specifica OpenChain versione 1.1 negli
     ultimi 18 mesi di ottenimento della convalida di conformità.
 
-> **Razionale**:
->
+#### Razionale
+
 > È importante che l'organizzazione rimanga aggiornata con la specifica se vuole
 > affermare la conformità del programma nel tempo.  Questo requisito assicura
 > che i processi e i controlli che supportano il programma non sono erosi se
