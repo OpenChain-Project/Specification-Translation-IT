@@ -6,28 +6,28 @@ Una copia della licenza è reperibile presso <https://creativecommons.org/licens
 
 # Introduzione
 
-L'OpenChain Initiative cominciò nel 2013 quando un gruppo di operatori impegnati nella filiera di approvvigionamento del software open source osservò l'insorgenza di due tendenze:
+L'OpenChain Initiative iniziò nel 2013 quando un gruppo di operatori impegnati nella filiera di approvvigionamento del software open source osservò l'insorgenza di due tendenze:
 
   * esistevano significative similitudini tra organizzazioni con programmi maturi di conformità open source; e
   * permaneva un ampio numero di organizzazioni che scambiavano software con programmi meno evoluti.
 
- Dalla seconda osservazione scaturiva una mancanza di fiducia nella uniformità e qualità dei risultati in termini di conformità che si accompagnavano al software così scambiato. Come conseguenza, a ogni passaggio nella catena di fornitura, le organizzazioni a valle si trovavano frequentemente a compiere nuovamente gli sforzi di conformità già eseguiti da altre organizzazioni a monte.
+ Dalla seconda osservazione scaturiva una mancanza di fiducia nella uniformità e qualità del materiale inerente la  conformità che si accompagnavano al software così scambiato. Come conseguenza, a ogni passaggio nella catena di fornitura, le organizzazioni a valle si trovavano frequentemente a ripetere gli sforzi di conformità già eseguiti da altre organizzazioni a monte.
 
 Fu formato un gruppo di studio al fine di considerare se potesse essere creato un programma di specifiche standardizzate che
 
   * facilitasse più alta qualità e uniformità delle informazioni sulla conformità open source che si scambiavano all'interno dell'industria; e
-  * diminuisse gli elevati costi di transazione associati all'open source risultante dal rifacimento della conformità.
+  * diminuisse gli elevati costi di transazione associati all'open source risultante dal rifacimento delle attività di conformità. `<!-- FIXME: qui dice "compliance work", traduciamo a senso -->`
 
 Il gruppo di studio evolvette in un gruppo di lavoro e, in aprile 2016 venne formalmente organizzato come un progetto collaborativo della Linux Foundation.
 
 La Visione e la Missione dell'OpenChain Initiative sono le seguenti:
 
-  * Visione: una filiera di approvvigionamento dove il software libero/open source (FOSS) fosse trasmesso con informazioni sulla conformità affidabili e uniformi.
-  * Missione: stabilire requisiti per raggiungere una gestione efficiente del software libero/open source (FOSS) per i partecipanti alla filiera di approvvigionamento del software, in modo che tali requisiti e il relativo materiale di supporto siano sviluppati in modo collaborativo e aperto da rappresentanti della filiera di approvvigionamento del software, dalla comunità open source e dal mondo accademico.
+  * **Visione**: una filiera di approvvigionamento dove il software libero/open source (FOSS) fosse trasmesso con informazioni sulla conformità affidabili e uniformi.
+  * **Missione**: stabilire requisiti per raggiungere una gestione efficiente del software libero/open source (FOSS) per i partecipanti alla filiera di approvvigionamento del software, in modo che tali requisiti e il relativo materiale di supporto siano sviluppati in modo collaborativo e aperto da rappresentanti della filiera di approvvigionamento del software, dalla comunità open source e dal mondo accademico.
 
-In coerenza con la Visione e la Missione, queste specifiche definiscono un insieme di requisiti che, se rispettati, incrementerebbero significativamente la probabilità che un programma di conformità open source abbia raggiunto un sufficiente livello di qualità, uniformità e completezza; ciononostante, un programma che soddisfi tutte i requisiti delle specifiche non garantisce una piena conformità. I requisiti rappresentano un insieme di livello base (minimo) di requisiti che un programma deve rispettare per essere considerato essere conforme con OpenChain. Le specifiche si focalizzano sul "cosa" e sul "perché" di un programma di conformità, in contrapposizione a considerazioni sul "come" e sul "quando". Ciò assicura un livello pratico di flessibilità che permette a diverse organizzazioni di confezionare su misura le proprie procedure e processi per adattarsi meglio ai propri obiettivi.
+In coerenza con la Visione e la Missione, queste specifiche definiscono un insieme di requisiti che, se rispettati, incrementerebbero significativamente la probabilità che un programma di conformità open source abbia raggiunto un sufficiente livello di qualità, uniformità e completezza; ciononostante, un programma che soddisfi tutte i requisiti delle specifiche non garantisce una piena conformità. I requisiti rappresentano un insieme di livello base (minimo) di requisiti che un programma deve rispettare per essere considerato essere conforme a OpenChain. Le specifiche si focalizzano sul "cosa" e sul "perché" di un programma di conformità, in contrapposizione a considerazioni sul "come" e sul "quando". Ciò assicura un livello pratico di flessibilità che permette a diverse organizzazioni di confezionare su misura le proprie procedure e processi per adattarsi meglio ai propri obiettivi.
 
-Il Capitolo 2 introduce definizioni dei termini chiave usati all'interno delle specifiche. Il Capitolo 3 presenta i requisiti delle specifiche dove ciascuna ha una lista di uno o più Risultati Attesi. Essi rappresentano la prova che deve sussistere al fine di considerare un dato requisito soddisfatto. Se tutti i requisiti sono stati rispettati per un dato programma, esso viene considerato Conforme a OpenChain nel rispetto della versione 1.1 delle specifiche. I Risultati Attesi non sono pubblici, ma possono essere forniti sotto NDA o su richiesta confidenziale da parte di un'organizzazione `[che si conforma a]` OpenChain `<!-- FIXME  confrontarsi con Shane, che cavolo vuol dire questa parte qui, non è chiaro, manca "conforming" -->` per validare la conformità.
+Il Capitolo 2 introduce definizioni dei termini chiave usati all'interno delle specifiche. Il Capitolo 3 presenta i requisiti delle specifiche dove ciascuna ha una lista di uno o più Risultati Attesi. Essi rappresentano la prova che deve sussistere al fine di considerare un dato requisito soddisfatto. Se tutti i requisiti sono stati rispettati per un dato programma, esso viene considerato Conforme a OpenChain nel rispetto della versione 1.1 delle specifiche. I Risultati Attesi non sono destinati ad essere pubblici, ma possono essere forniti sotto NDA o su richiesta confidenziale da parte di un'organizzazione `[che si conforma a]` OpenChain `<!-- FIXME  confrontarsi con Shane, che cavolo vuol dire questa parte qui, non è chiaro, manca "conforming" -->` per validare la conformità.
 
 # Definizioni
 
@@ -35,16 +35,16 @@ FOSS (Free and Open Source Software)
 :    Software sottoposto a una o più licenze che rispettano la Open Source Definition, pubblicat dalla Open Source Initiative (OpenSource.org) o la Free Software Definition (pubblicata dalla Free Software Foundation) o licenze simili.
 
 Persona di Contatto FOSS <!-- Nota, anche questo è stato modificato rispetto all'ultima versione -->
-:    Una persona designata a ricevere [`domande | richieste di informazioni` `<!-- FIXME scegliere -->` ] circa il FOSS.
+:    Una persona designata a ricevere richieste di informazioni circa il FOSS.
 
 Licenze identificate
-:    Un insieme di licenze FOSS identificate a seguito dell'applicazione di un metodo appropriato di identificazione di tali licenze.` <!-- FIXME E che cazz'è? --> `
+:    Un insieme di licenze FOSS identificate a seguito dell'applicazione di un metodo appropriato di identificazione di tali licenze.
 
 Conforme a OpenChain
 :    un programma che soddisfi tutti i requisiti di questa specifica.
 
 Staff del Software <!-- attenzione, modificata rispetto precedente versione -->   
-:    un dipendente o un appaltatore che definisce, contribuisce a o ha responsabilità circa la preparazione di Software fornito. A seconda dell'organizzazione, ciò potrebbe includere (ma non si limita a) sviluppatori software, specialisti del rilascio, responsabili della qualità, [`product marketing e product management` `<!-- FIXME come tradurre questa roba? Ha senso? --> `]
+:    un dipendente o un appaltatore che definisce, contribuisce a o ha responsabilità circa la preparazione di Software fornito. A seconda dell'organizzazione, ciò potrebbe includere (ma non si limita a) sviluppatori software, specialisti del rilascio, responsabili della qualità, responsabili del marketing di prodotto, responsabili di prodotto.
 
 SPDX o Software Package Data Exchange
 :    il formato standard creato dall'SPDX Working Group per lo scambio di informazioni di licenza e copyright circa un determinato pacchetto software. Una descrizione delle specifiche SPDX può essere reperita a http://www.spdx.org `<!-- FIXME segnalare che gli URL vanno sempre identificati con il protocollo! -->`
@@ -57,21 +57,23 @@ Risultati Attesi
 
 # Requisiti
 
-## Conosci le tue responsabilità in materia di FOSS
+## G1: Conosci le tue responsabilità in materia di FOSS
 ---------------------------------------------------------------------------------------------------------------------------------
 
-### **Esiste una policy FOSS interna, la quale regola il rispetto delle licenze FOSS nella distribuzione del Software Fornito.** La Policy deve essere comunicata internamente.
+### 1. **Esiste una policy FOSS interna, la quale regola il rispetto delle licenze FOSS nella distribuzione del Software Fornito.** La Policy deve essere comunicata internamente.
 
 #### Risultati Attesi
 
-* Esistenza di una policy FOSS scritta
-* Esistenza di Una procedura documentata che renda tutto lo Staff del Software informato dell'esistenza di una policy FOSS (per esempio, tramite formazione, un wiki interno, ovvero altri metodi di comunicazione).
+* 1.1.1 Esistenza di una policy FOSS scritta
+* 1.1.2 Esistenza di Una procedura documentata che renda tutto lo Staff del Software informato dell'esistenza di una policy FOSS (per esempio, tramite formazione, un wiki interno, ovvero altri metodi di comunicazione).
 
 #### Razionale
 
-> Assicurare che passi `[necessari?]` siano stati intrapresi per creare, registrare e rendere lo Staff del Software informato dell'esistenza di una policy FOSS. Sebbene qui non sono forniti requisiti su cosa debba essere incluso in tale policy, altre sezioni potrebbero imporre requisiti sulla policy.
+> Assicurare che siano stati intrapresi passi nella direzione di creare, registrare e rendere lo Staff del Software informato dell'esistenza di una policy FOSS. Sebbene qui non sono forniti requisiti su cosa debba essere incluso in tale policy, altre sezioni potrebbero imporre requisiti sulla policy.
 
 ### Esiste un aggiornamento FOSS obbligatorio per tutto lo Staff del Software, tale per cui:
+
+`<!-- FIXME: inserire la numerazione -->`
 
 - **Il training, come minimo, copra le seguenti aree:**
 
@@ -114,7 +116,7 @@ Risultati Attesi
 
 #### Risultati Attesi
 
-- Identificazione pubblica della funzione di Contatto FOSS (per esempio, tramite un indirizzo email pubblicizzato, o la Open conformità Directory della Linux Foundation).
+- Identificazione pubblica della funzione di Contatto FOSS (per esempio, tramite un indirizzo email pubblicizzato, o la Open compliance Directory della Linux Foundation).
 - Esistenza di una procedura interna documentata che assegni le responsabilità per ricevere richieste circa la conformità FOSS.
 
 #### Razionale
@@ -145,9 +147,7 @@ Risultati Attesi
 <span id="_Toc457078800" class="anchor"><span id="_Toc480843028" class="anchor"></span></span>G3: Verifica e Approva il Contenuto FOSS
 ---------------------------------------------------------------------------------------------------------------------------------
 
-### Esiste un processo per creare e gestire una lista di materiali per il componente FOSS <!-- FIXME: G3 perché tutto maiuscolo se non definito? --> che include ciascun componente (e le sue Licenze Identificate) in una versione del Software Fornito.
-
-<!-- Marco, devi usare gli stili di intestazione H1 - H3 per i titoli, altrimenti mi sconvolgi tutto il lavoro ;-) -->
+**3.1 Esiste un processo per creare e gestire una lista di materiali per il componente FOSS G3 che include ciascun componente (e le sue Licenze Identificate) in una versione del Software Fornito.**
 
 ####Risultati Attesi:
 
@@ -155,13 +155,13 @@ Risultati Attesi
     archiviare informazione sulla collezione di componenti FOSS dai
     quali è composta una versione del Software Fornito.
 
--   3.1.2 Esistono registri dei componenti FOSS per ciascuna versione del
-    Software Fornito che dimostra che la procedura documentata è stata
+-   3.1.2 Esistono registrazioni dei componenti FOSS per ciascuna versione del
+    Software Fornito che dimostrano che la procedura documentata è stata
     seguita correttamente.
 
 #### Razionale
 
-> Garantire che esiste un processo per creare e gestire una lista dei materiali
+> Garantire che esista un processo per creare e gestire una lista dei materiali
 > per il componente FOSS utilizzata per costruire il Software Fornito. Una lista dei
 > materiali è necessaria per supportare la revisione sistematica dei termini di licenza
 > di ciascun componente per comprendere gli obblighi e le restrizioni applicabili alla
@@ -198,12 +198,11 @@ Risultati Attesi
 G4: Consegna la Documentazione e i Materiali del Contenuto FOSS
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-**4.1        
-Preparare l'insieme di materiali che rappresentano il risultato
-del** **programma di gestione del FOSS per ogni versione del Software Fornito.
+**4.1 Preparare l'insieme di materiali che rappresentano il risultato
+del programma di gestione del FOSS per ogni versione del Software Fornito.
 Questo insieme è definito come Materiali di Conformità  che possono includere
 (ma Non sono limitati a) uno o più dei seguenti: codice sorgente,
-avvisi di attribuzione, avvisi di copyright, copia delle licenze, notifiche di
+dichiarazione di attribuzione, dichiarazione sul copyright, copia delle licenze, notifiche di
 modifica, offerte scritte, documenti SPDX e così via.**
 
 > **Risultati Attesi**:
@@ -212,8 +211,8 @@ modifica, offerte scritte, documenti SPDX e così via.**
     di Conformità vengono preparati e distribuiti con la versione del
     Software Fornito come richiesto dalle Licenze Identificate.
 
--   4.1.2 Copie dei Materiali di Conformità della versione dei Software
-    Forniti sono archiviate e facilmente recuperabili, ed è previsto che
+    -   4.1.2 Copie dei Materiali di Conformità della versione del Software
+    Fornito sono archiviate e facilmente recuperabili, ed è previsto che
     l'archivio esista almeno fino a quando il Software Fornito viene offerto
     o è richiesto dalle Licenze Identificate (a seconda di quale sia il
     termine più lungo).
@@ -268,12 +267,12 @@ nel capitolo 5.1.**
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 **6.1 Affinché un'organizzazione sia certificata OpenChain, deve
-affermare di disporre di un programma di gestione FOSS che soddisfa i criteri
+dichiarare di disporre di un programma di gestione FOSS che soddisfa i criteri
 descritti in questa versione 1.1 della Specifica OpenChain.**
 
 > **Prodotto(i) di Verifica**:
 
--   6.1.1 L'organizzazione afferma che esiste un programma di gestione FOSS
+-   6.1.1 L'organizzazione dichiara che esiste un programma di gestione FOSS
     che soddisfa tutti i requisiti di questa Specifica OpenChain
     versione 1.1.
 
