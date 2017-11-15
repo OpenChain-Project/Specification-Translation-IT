@@ -8,6 +8,7 @@ copia della licenza è reperibile presso
 
 # Introduzione
 
+
 L'OpenChain Initiative cominciò nel 2013 quando un gruppo di operatori impegnati
 nella filiera di approvvigionamento del software open source osservò
 l'insorgenza di due tendenze:
@@ -17,12 +18,14 @@ l'insorgenza di due tendenze:
   * permaneva un ampio numero di organizzazioni che scambiavano software con
     programmi meno evoluti.
 
+
  Dalla seconda osservazione scaturiva una mancanza di fiducia nella uniformità e
  qualità dei risultati in termini di conformità che si accompagnavano al
  software così scambiato. Come conseguenza, a ogni passaggio nella catena di
  fornitura, le organizzazioni a valle si trovavano frequentemente a compiere
  nuovamente gli sforzi di conformità già eseguiti da altre organizzazioni a
  monte.
+
 
 Fu formato un gruppo di studio al fine di considerare se potesse essere creato
 un programma di specifiche standardizzate che
@@ -36,6 +39,7 @@ Il gruppo di studio evolvette in un gruppo di lavoro e, in aprile 2016 venne
 formalmente organizzato come un progetto collaborativo della Linux Foundation.
 
 La Visione e la Missione dell'OpenChain Initiative sono le seguenti:
+
 
   * Visione: una filiera di approvvigionamento dove il software libero/open
     source (FOSS) fosse trasmesso con informazioni sulla conformità affidabili e
@@ -70,6 +74,7 @@ Risultati Attesi non sono pubblici, ma possono essere forniti sotto NDA o su
 richiesta confidenziale da parte di un'organizzazione `[che si conforma a]`
 OpenChain `<!-- FIXME  confrontarsi con Shane, che cavolo vuol dire questa parte
 qui, non è chiaro, manca "conforming" -->` per validare la conformità.
+
 
 # Definizioni
 
@@ -350,6 +355,7 @@ descritti in questa versione 1.1 della Specifica OpenChain.**
 -   6.1.1 L'organizzazione dichiara che esiste un programma di gestione FOSS
     che soddisfa tutti i requisiti di questa Specifica OpenChain
     versione 1.1.
+##### Razionale
 
 >
 > Per garantire che se un'organizzazione dichiara di avere un programma che è
