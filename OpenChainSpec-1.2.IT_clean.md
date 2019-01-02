@@ -6,10 +6,6 @@ secPrefixTemplate: "\\[p\\]&nbsp;\\[i\\]"
 ---
 
 
-3.1 carcco
-3.2 cuirage
-3.3 Farco
-
 Versione 1.2
 
 *This file serves as a template to facilitate the translation of the
@@ -24,19 +20,41 @@ details about the translation policy and process please visit: *
 
 ## Contents {- label="content"}
 
-This is an official translation from the OpenChain Project. It has been
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=2 orderedList=false} -->
+<!-- code_chunk_output -->
+
+	* [Contents](#contents)
+* [Introduzione](#introduzione)
+* [Definizioni](#definizioni)
+* [Requisiti](#requisiti)
+	* [Obiettivo 1: Conosci le Tue Responsabilità FOSS](#obiettivo-1-conosci-le-tue-responsabilità-foss)
+	* [Obiettivo 2: Assegna Responsabilità per Conseguire Conformità](#obiettivo-2-assegna-responsabilità-per-conseguire-conformità)
+	* [Obiettivo 3: Verifica e Approva il Contenuto FOSS](#obiettivo-3-verifica-e-approva-il-contenuto-foss)
+	* [Obiettivo 4: Consegna la Documentazione e gli Elaborati del Contenuto FOSS](#obiettivo-4-consegna-la-documentazione-e-gli-elaborati-del-contenuto-foss)
+	* [Obiettivo 5: Comprendere il Coinvolgimento della Comunità FOSS](#obiettivo-5-comprendere-il-coinvolgimento-della-comunità-foss)
+	* [Obiettivo 6: Certificare l\'Adesione ai Requisiti OpenChain](#obiettivo-6-certificare-ladesione-ai-requisiti-openchain)
+* [Appendice I: Traduzioni](#appendice-i-traduzioni)
+
+<!-- /code_chunk_output -->
+
+> This is an official translation from the OpenChain Project. It has been
 translated from the original English text. In the event there is
 confusion between this translation and the English version, The English
 text shall take precedence.
 
-Questa è una traduzione ufficiale del progetto OpenChain. Il testo è
+> Questa è una traduzione ufficiale del progetto OpenChain. Il testo è
 stato tradotto dall'originale inglese. Nel caso in cui vi sia ambiguità
 tra questa traduzione e la versione Inglese, il testo inglese prevale.
+
+---
 
 Copyright © 2016-2018 Linux Foundation. Questo documento è concesso in
 licenza secondo I termini della licenza Creative Commons Attribuzione
 4.0 Internazionale (CC-BY 4.0). Una copia della licenza è reperibile
 presso <https://creativecommons.org/licenses/by/4.0/>.
+
+---
 
 # Introduzione
 
@@ -107,32 +125,30 @@ ottenuti esaminando le Domande Frequenti (FAQ) sulla Specifica
 disponibili all\'indirizzo:
 <https://www.openchainproject.org/specification-faq>
 
-Definizioni
-========================
+# Definizioni
 
 **Elaborati di Conformità**
-:   una raccolta di elaborati che
-rappresentano il risultato del programma di gestione FOSS per una
-versione del Software Fornito. La raccolta può includere (ma non è
-limitata a) uno o più dei seguenti: codice sorgente, note di
-attribuzione, note di diritto d'autore, copia delle licenze, notifiche
-di modifica, offerte scritte, distinta dei materiali del componente
-FOSS, documenti SPDX e così via.
+:   una raccolta di elaborati che rappresentano il risultato del programma di
+gestione FOSS per una versione del Software Fornito. La raccolta può includere
+(ma non è limitata a) uno o più dei seguenti: codice sorgente, note di
+attribuzione, note di diritto d'autore, copia delle licenze, notifiche di
+modifica, offerte scritte, distinta dei materiali del componente FOSS, documenti
+SPDX e così via.
 
 **FOSS** (Free and Open Source Software)
-:   software sottoposto a una o
-più licenze che rispettano la Open Source Definition, pubblicata dalla
-Open Source Initiative (OpenSource.org) o la Free Software Definition
-(pubblicata dalla Free Software Foundation) o licenze simili.
+:   software sottoposto a una o più licenze che rispettano la Open Source
+Definition, pubblicata dalla Open Source Initiative (OpenSource.org) o la Free
+Software Definition (pubblicata dalla Free Software Foundation) o licenze
+simili.
 
 **Contatto FOSS**
 :   una persona designata a ricevere richieste esterne
 di informazioni circa il FOSS.
 
 **Licenze identificate**
-:   un insieme di licenze FOSS identificate a
-seguito dell\'applicazione di un metodo appropriato di identificazione
-delle licenze che regolano il Software Fornito.
+:   un insieme di licenze FOSS identificate a seguito dell\'applicazione di un
+metodo appropriato di identificazione delle licenze che regolano il Software
+Fornito.
 
 **Programma di Conformità OpenChain**
 :   un programma che soddisfa tutti i requisiti di questa specifica.
@@ -158,11 +174,9 @@ parti (per esempio, altre organizzazioni o altre persone).
 :   prove che debbono esistere al fine di
 considerare soddisfatto un determinato requisito.
 
-Requisiti
-======================
+# Requisiti
 
-Obiettivo 1: Conosci le Tue Responsabilità FOSS {- label="Obiettivo 1"}
-------------------------------------------------------------
+## Obiettivo 1: Conosci le Tue Responsabilità FOSS {- label="Obiettivo 1"}
 
 1.   **Esiste una politica FOSS interna che regola il rispetto delle licenze
      FOSS nella distribuzione del Software Fornito.** La Politica deve essere
@@ -229,7 +243,7 @@ un insieme di argomenti centrali di livello base siano stati affrontati,
 ma un programma di formazione tipico sarebbe verosimilmente più ampio di
 quanto qui è richiesto.
 
-1.  1.  **Esiste un processo per esaminare le Licenze Identificate per
+1. **Esiste un processo per esaminare le Licenze Identificate per
         determinare le obbligazioni, le restrizioni e i diritti
         conferiti da ciascuna licenza.**
 
@@ -245,8 +259,7 @@ Assicurare l\'esistenza di una procedura per la revisione e
 l'identificazione delle obbligazioni per ciascuna Licenza Identificata
 per i vari casi d\'uso.
 
-Obiettivo 2: Assegna Responsabilità per Conseguire Conformità {-}
---------------------------------------------------------------------------
+## Obiettivo 2: Assegna Responsabilità per Conseguire Conformità {-}
 
 **2.1 Identifica la Funzione di Contatto Esterno del FOSS (\"Contatto
 FOSS\")**
@@ -311,8 +324,7 @@ responsabilità sia stata effettivamente assegnata.
 Assicurare che le responsabilità interne FOSS siano effettivamente
 assegnate.
 
-Obiettivo 3: Verifica e Approva il Contenuto FOSS {-}
---------------------------------------------------------------
+## Obiettivo 3: Verifica e Approva il Contenuto FOSS {-}
 
 **3.1 Esiste un processo per creare e gestire una lista di materiali del
 componente FOSS che include ciascun componente (e le sue Licenze
@@ -362,8 +374,7 @@ casi comuni d\'uso di licenza FOSS per un\'organizzazione. Che esiste
 una procedura per supportare quest\'attività e che la procedura è
 seguita.
 
-Obiettivo 4: Consegna la Documentazione e gli Elaborati del Contenuto FOSS {-}
----------------------------------------------------------------------------------------
+## Obiettivo 4: Consegna la Documentazione e gli Elaborati del Contenuto FOSS {-}
 
 **4.1 Esiste un processo per creare l'insieme degli Elaborati di
 Conformità per ciascun Software Fornito**
@@ -386,8 +397,7 @@ accompagni il Software Fornito come richiesto dalle Licenze Identificate
 insieme alle altre relazioni create nel quadro del processo di revisione
 FOSS.
 
-Obiettivo 5: Comprendere il Coinvolgimento della Comunità FOSS {-}
----------------------------------------------------------------------------
+## Obiettivo 5: Comprendere il Coinvolgimento della Comunità FOSS {-}
 
 **5.1 Esiste una politica scritta che regola i contributi ai progetti
 FOSS da parte dell\'organizzazione. La politica deve essere comunicata
@@ -427,8 +437,7 @@ una politica tale per cui i contributi non sono consentiti del tutto. In
 questa situazione è chiaro che una procedura può non sistere e questo
 requisito sarebbe comunque soddisfatto.
 
-Obiettivo 6: Certificare l\'Adesione ai Requisiti OpenChain {-}
-------------------------------------------------------------------------
+## Obiettivo 6: Certificare l\'Adesione ai Requisiti OpenChain {-}
 
 **6.1 Affinché un\'organizzazione sia Certificata OpenChain, deve
 dichiarare di disporre di un programma di gestione FOSS che soddisfa i
@@ -465,8 +474,7 @@ tempo. Questo requisito assicura che i processi e i controlli di
 supporto del programma non si erodono se l'organizzazione che si
 conforma continua ad afferma la conformità nel tempo.
 
-Appendice I: Traduzioni {-}
-===================================================
+# Appendice I: Traduzioni {-}
 
 Per facilitare l\'adozione globale, accogliamo con piacere gli sforzi
 per tradurre la specifica in più lingue. Poiché OpenChain funziona come
