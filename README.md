@@ -6,18 +6,6 @@ This repository is a depreciated work space for translation. Please work off the
 
 The official release translations of the OpenChain Specification are housed in a unified repository here: https://github.com/OpenChain-Project/Specification-Translations
 
-## todo
-
-see open issues
-
-- numbering
-
-## done
-
-- First draft completed and collated
-- Clarify certain points that don't add up really much in the original version (see "Fixme" comments)
-- More changes and cleanup, nearly final stage
-
 
 Authors:
 
